@@ -1,14 +1,24 @@
-# 簡単な掲示板サービス
-フロントはVue.js(JS)、サーバーはRailsで実装する。
-RailsでAPIサーバ立ててVue.js側でそれを叩いてあげる。
-追加したい機能があれば、このREADME.mdに書き加えていく。
-## 初期実装
-- 匿名で誰でも投稿することができる。
-- 掲示板は誰でも作れる。
-- 掲示板ごとにタイムラインが流れる感じ。
-## 追加予定の機能
-- ユーザー認証
-- ユーザーマイページ
-- 自分の投稿の編集削除機能
-- 投稿に対するコメント機能
-- 投稿に対するいいね機能
+# 
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
